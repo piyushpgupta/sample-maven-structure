@@ -8,6 +8,17 @@
 	<version>1.0</version>
 	<build>
 		<defaultGoal>package</defaultGoal>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<localCheckout>true</localCheckout>
+					<pushChanges>false</pushChanges>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 	<scm>
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
