@@ -21,7 +21,7 @@
 	</build>
 	<scm>
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
-		<tag>sample-maven-structure-1.2</tag>
+		<tag>sample-maven-structure-1.0</tag>
 	</scm>
 	<modules>
 		<module>parent</module>
