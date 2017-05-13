@@ -30,7 +30,7 @@
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
 		<developerConnection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</developerConnection>
 		<url>https://github.com/piyushpgupta/sample-maven-structure.git</url>
-		<tag>sample-maven-structure-1.2</tag>
+		<tag>sample-maven-structure-1.5</tag>
 	</scm>
 	<modules>
 		<module>parent</module>

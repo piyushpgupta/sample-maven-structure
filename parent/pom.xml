@@ -12,12 +12,12 @@
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-a</artifactId>
-				<version>1.5-SNAPSHOT</version>
+				<version>1.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-b</artifactId>
-				<version>1.5-SNAPSHOT</version>
+				<version>1.5</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-cli</groupId>
@@ -32,7 +32,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
 		<url>https://github.com/piyushpgupta/sample-maven-structure.git</url>
-	  <tag>sample-maven-structure-1.2</tag>
+	  <tag>sample-maven-structure-1.5</tag>
   </scm>
 	<distributionManagement>
 		<repository>
