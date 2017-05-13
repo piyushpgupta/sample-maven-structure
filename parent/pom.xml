@@ -12,12 +12,12 @@
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-a</artifactId>
-				<version>1.5</version>
+				<version>1.5-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-b</artifactId>
-				<version>1.5</version>
+				<version>1.5-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-cli</groupId>
