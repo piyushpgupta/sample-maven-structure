@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>pom</packaging>
 	<description>The parent pom holds all the necessary
         version and configuration information for submodules.</description>
@@ -12,7 +12,7 @@
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-a</artifactId>
-				<version>1.2-SNAPSHOT</version>
+				<version>1.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.example</groupId>
