@@ -4,7 +4,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>sample-maven-structure</artifactId>
 	<packaging>pom</packaging>
-	<version>1.6-SNAPSHOT</version>
+	<version>1.6</version>
 	<properties>
 		<sonar.host.url> http://localhost:9000/ </sonar.host.url>
 	</properties>
@@ -30,7 +30,7 @@
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
 		<developerConnection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</developerConnection>
 		<url>https://github.com/piyushpgupta/sample-maven-structure.git</url>
-		<tag>sample-maven-structure-1.5</tag>
+		<tag>sample-maven-structure-1.6</tag>
 	</scm>
 	<modules>
 		<module>parent</module>
