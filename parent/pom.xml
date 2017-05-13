@@ -30,6 +30,10 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<scm>
+		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
+		<url>https://github.com/piyushpgupta/sample-maven-structure.git</url>
+	</scm>
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
