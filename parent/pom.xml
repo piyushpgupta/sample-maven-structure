@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>pom</packaging>
 	<description>The parent pom holds all the necessary
         version and configuration information for submodules.</description>
@@ -13,12 +12,12 @@
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-a</artifactId>
-				<version>1.2-SNAPSHOT</version>
+				<version>1.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.example</groupId>
 				<artifactId>module-b</artifactId>
-				<version>1.2-SNAPSHOT</version>
+				<version>1.2</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-cli</groupId>
@@ -33,7 +32,8 @@
 	<scm>
 		<connection>scm:git:git@github.com:piyushpgupta/sample-maven-structure.git</connection>
 		<url>https://github.com/piyushpgupta/sample-maven-structure.git</url>
-	</scm>
+	  <tag>sample-maven-structure-1.2</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
