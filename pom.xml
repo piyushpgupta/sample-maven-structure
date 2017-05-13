@@ -5,7 +5,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>sample-maven-structure</artifactId>
 	<packaging>pom</packaging>
-	<version>1.2</version>
+	<version>1.2-SNAPSHOT</version>
 	<properties>
 		<sonar.host.url> http://localhost:9000/ </sonar.host.url>
 	</properties>
@@ -17,7 +17,7 @@
 				<version>2.5.3</version>
 				<configuration>
 					<localCheckout>true</localCheckout>
-					<pushChanges>true</pushChanges>
+					<pushChanges>false</pushChanges>
 				</configuration>
 			</plugin>
 			<plugin>
