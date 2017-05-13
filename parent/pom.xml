@@ -25,7 +25,7 @@
 				<!-- Using properties for dependency versions help keeping the version 
 					number in sync for dependencies spread over a multitude of artifacts like 
 					the Spring framework -->
-				<version>${commons.cli.version}</version>
+				<version>1.4</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
